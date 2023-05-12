@@ -1,0 +1,11 @@
+reactjs how to create in ec2-server?
+
+first we create ec2
+login to ssh 
+switch user sudo su -
+Yum install  nodejs
+npx create-react-app  folder name as your wish
+Cd folder name
+npm install
+npm start
+Ec2  sg  inboundrule  3000 port Allow it
